@@ -1,0 +1,66 @@
+body {
+  background-color: #FCFBF6; 
+}
+
+font-family: 'Jomolhari', serif;
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-family: 'Jomolhari', serif;
+}
+.carousel-caption1 {
+  position: absolute;
+  right: 20%;
+  bottom: 250px;
+  left: 20%;
+  z-index: 10;
+  padding: 115px 100px 115px 100px; 
+  color: #332720;
+  font-family: 'Jomolhari', serif;
+  text-align: center;
+  background-color: rgba(236, 235, 233, 0.9);
+  border: 2px solid #89613F; 
+}
+
+
+
+img {
+  object-fit: cover;
+}
+
+.iconphoto {
+  object-fit:contain; 
+}
+
+.greenscreen {
+  background-color: #CDDBCC; 
+}
+
+.project-title {
+    color: #332720;
+    font-size: 2rem; 
+}
+
+.gray {
+  background-color: #ECEBE9; 
+  padding-top: 10px; 
+  padding-bottom:10px; 
+  padding-left:20px; 
+}
+
+#project-img {
+  object-fit: fill;
+  border: 1px solid #89613F;  
+}
+
+
+.card {
+  padding:0px; 
+  border:0px; 
+}
